@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atélier 4 KDA</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <form action="">
+        <div class="contenant">
+
+            <div class="generalinformation">
+                <h1>General Information</h1>
+                    <p>
+                         <label for="title"></label>
+                        <select name="title" id="title" class="menu">
+                            <option value="title">Title</option>
+                            <option value="ingénieur">Ingénieur</option>
+                            <option value="medecin">Medecin</option>
+                         </select>
+                    </p>
+
+                    <p>
+                        <label for="firstname"></label>
+                        <input type="text" placeholder="First Name"><input id="lastname" type="text" placeholder="Last Name">
+                   </p>
+
+                    <p>
+                        <label for="position"></label>
+                        <select name="position" id="position" class="menu">
+                            <option value="position">Position</option>
+                            <option value="chefdeservice">Chef de service</option>
+                            <option value="chefdebureau">Chef de bureau</option>
+                        </select>
+                    </p>
+
+                    <p>
+                        <label for="company"></label>
+                        <input type="text" id="company" placeholder="Company">
+                    </p>
+
+                    <p>
+                      <label for="businessarena"></label>
+                      <input type="text" id="businessarena" placeholder="Business Arena"><label for="employees"></label><select name="employees" id="employees" aria-placeholder="Employees">
+                         <option value="employees">Employees</option>
+                         <option value="developpeur">Développeur</option>
+                         <option value="it">IT</option>
+                     </select>
+                    </p>
+        
+            </div>
+
+            <div class="contactdetails">
+
+                <h2>Contact Details</h2>
+                    <p>
+                    <label for="street"></label>
+                    <input type="text" id="street" placeholder="Street + Nr">
+                    </p>
+
+                     <p>
+                        <label for="additionnal_information"></label>
+                        <input type="text" id="additionnal_information" placeholder="Additional information">
+                    </p>
+
+                    <p>
+                        <label for="zipcode"></label>
+                        <input type="text" id="zipcode" placeholder="ZipCode"><label for="place"></label><select name="place" id="place">
+                            <option value="place">Place</option>
+                            <option value="bandal">Bandal</option>
+                            <option value="gombe">Gombe</option>
+                        </select>
+                    </p>
+
+                    <p>
+
+                        <label for="country"></label>
+                         <select name="country" id="country" class="menu">
+                            <option value="country">Country</option>
+                            <option value="belgique">Belgique</option>
+                            <option value="rdc">RDC</option>
+                            <option value="canada">Canada</option>
+                            <option value="usa">USA</option>
+                         </select>
+                    </p>
+
+                    <p>
+                        <label for="code"></label>
+                        <input type="number" id="code" placeholder="Code +"><input type="tel" id="phonenumber" maxlength="9" placeholder="Phone Number"><label for="phonenumber"></label>
+                    </p>
+
+                    <p>
+                        <label for="mail"></label>
+                        <input type="email" id="mail" placeholder="Your Email">
+                    </p>
+                    <p class="cond newButton">
+                        
+                        <input id="conditions" type="radio"><label for="conditions"></label> <span id="agree">I do accept the </span> <a href="#">Terms and Conditions</a> <br/> <span id="forme">of your site.</span></label>
+                    </p>
+                    <p>
+                        <br />
+                        <label for="register"></label>
+                        <input type="submit" id="register" value="Register Badge">
+                    </p>
+            </div>
+        </div>
+    </form>
+    <!-- <script>
+        let hauteur = screen.height;
+        alert(hauteur+'px');
+    </script> -->
+</body>
+</html>
